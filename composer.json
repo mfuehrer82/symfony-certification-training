@@ -1,0 +1,22 @@
+{
+  "name": "funkt/symfony-workout",
+  "description": "This script will help you to prepare for the symfony certification exam.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Marcel Führer",
+      "email": "mfuehrer82@gmail.com"
+    }
+  ],
+  "require": {
+    "symfony/console": "^3.2",
+    "symfony/yaml": "^3.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Workout\\": "src/"
+    }
+  }
+}

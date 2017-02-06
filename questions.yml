@@ -1,0 +1,40 @@
+symfony3:
+  1:
+    question: "What is the default signal sent by Process component to stop a process ?"
+    choices:
+      1: SIGINT
+      2: SIGKILL
+      3: Process::STOP
+      4: 9
+    solution:
+      2: SIGKILL
+      4: 9
+  2:
+    question: "What can be used in Yaml::parse(?????); of the Symfony\\Component\\Yaml\\Yaml?"
+    choices:
+      1: "/path/to/file.yml"
+      2: file_get_contents("/path/to/file.yml")
+      3: Both are valid
+    solution:
+      2: file_get_contents("/path/to/file.yml")
+
+php:
+  1:
+    question: "What is the short open tag for PHP?"
+    choices:
+      1: <!
+      2: <%
+      3: <?
+      4: <?=
+    solution:
+      3: <?
+  2:
+    question: "Since PHP 5.6+, if function foo() is defined in the namespace Myapp\\Utils\\Bar and your code is in namespace Myapp, what is the correct way to import the foo() function?'"
+    choices:
+      1: use function foo;
+      2: use Myapp\\Utils\\Bar\\foo;
+      3: use function Myapp\\Utils\\Bar\\foo;
+      4: use Utils\\Bar\\Foo;
+      5: use Myapp\\Utils\\Bar\\foo;
+    solution:
+      3: use function Myapp\\Utils\\Bar\\foo;
